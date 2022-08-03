@@ -1,3 +1,8 @@
+// 전역 변수
+let turn = "player";
+let playerScore = 0;
+let enemyScore = 0;
+
 // min과 max사이에 랜덤한 정수를 얻는 함수
 function getRandomDice(min, max) {
   min = Math.ceil(min);
